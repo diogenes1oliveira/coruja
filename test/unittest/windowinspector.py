@@ -54,3 +54,4 @@ class TestWindow(unittest.TestCase):
 
         w333 = windowinspector.Window(00, '', pid=333)
         self.assertEqual(w333.process_name, '', w333)
+
